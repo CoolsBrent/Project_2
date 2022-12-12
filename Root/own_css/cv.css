@@ -1,17 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
 body {
 background-color: rgb(48, 47, 47);
 padding: 0px;
-margin-left: 20px;
-margin-right: 20px;
+
+padding-right: 20px;
 }
 .footer{
 position: sticky;
-margin-right: -20px;
+margin-right: -10px;
 margin-left: -20px;
 }
 .navbar {
 margin-left: -30px;
-margin-right: -30px;            
+margin-right: -20px;            
 }
 .p-5 {
 background-repeat: no-repeat;
@@ -82,4 +86,16 @@ width: 600px;
 .blog .carousel-indicators .active {
 background: #707070;
 }
-        
+.aanvullendeinfo {
+    margin-left: 20px;
+    margin-bottom: 75px;
+}
+.img-fluid {
+    max-width: 100%;
+  height: auto;
+}
+@media screen and (min-width: 780px) {
+    .body {
+    margin: auto;
+    width: 90%;
+    }}  
