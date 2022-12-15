@@ -1,0 +1,47 @@
+*{
+    padding-right: 0px;
+    margin: 0px;
+  }
+  body {
+  background-color: rgb(48, 47, 47);
+  
+  
+  }
+  .p-5 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-position-y: center;
+  
+  margin-bottom: 20px;
+  }
+  
+  .footer{
+  position: sticky;
+  width: 100%;
+  }
+  .navbar {
+  width: 100%;
+  }
+  .mb-3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  #colform {
+    padding-bottom: 75px;
+  }
+  @media screen and (max-width: 600px) {
+    .row {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .navbar {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .col {
+      width: 100%;
+    }
+  }

@@ -4,7 +4,7 @@
   }
 body {
 background-color: rgb(48, 47, 47);
-padding: 0px;
+
 }
 .footer{
 position: sticky;
@@ -44,44 +44,11 @@ height: 200px;
 .carousel {
 width: 600px;
 }
-.colmargin {
-    margin-top: -35px;
-}
+
 .carousel-item {
     height: 200px;
 }
-.flex-33 {
-    flex: 33.33%;
-}
-.container-flex {
-    display: flex;
-    text-align: center;
-}
-.flex-item {
-    padding: 2px;
 
-}
-.d-block {
-    height: 200px;
-}
-.blog .carousel-indicators {
-	left: 0;
-	top: auto;
-    bottom: -40px;
-
-}
-
-/* The colour of the indicators */
-.blog .carousel-indicators li {
-    background: #ffffff;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
-}
-
-.blog .carousel-indicators .active {
-background: #707070;
-}
 .aanvullendeinfo {
     margin-left: 20px;
     margin-bottom: 75px;
@@ -90,11 +57,49 @@ background: #707070;
     max-width: 100%;
   height: auto;
 }
-.btn {
-    margin-left: 20px;
+
+.modal-dialog {
+    width: 100%;
+    
 }
-@media screen and (min-width: 780px) {
-    .body {
-    margin: auto;
-    width: 90%;
-    }}  
+@media screen and (max-width: 600px) {
+    .col {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .navbar {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .col-md-4 {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .col-md-6 {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .col-md-2 {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-6{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 405px) {
+    .modal-dialog{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 405px) {
+    .modal{
+      width: 100%;
+    }
+  }

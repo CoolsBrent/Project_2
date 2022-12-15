@@ -55,8 +55,17 @@ margin-left: 70px;
 .col-md-4 {
   margin-bottom: 75px;
 }
-@media screen and (max-width: 320px) {
-  *{
-  margin: auto;
-  width: 80%;
-  }}
+
+
+@media screen and (max-width: 600px) {
+  .col {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    width: 100%;
+  }
+}
+
+
