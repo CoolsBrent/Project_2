@@ -72,5 +72,10 @@ margin-left: 70px;
     width: 100%;
   }
 }
+@media screen and (max-width: 600px) {
+  .col-3 {
+    width: 100%;
+  }
+}
 
 
