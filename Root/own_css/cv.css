@@ -30,7 +30,22 @@ img {
   height: 150px;
   width: auto;
 }
+.nav-item:hover {
+  display: inline-block;
+  position: relative;
+  color: #64c374;
+}
+.nav-item:hover::after {
+  content: '';
+position: absolute;
+width: 100%;
+height: 5px;
+bottom: 0;
+left: 0;
+background-color: #64c374;
+border-radius: 5px;
 
+}
 .img-thumbnail {
 height: 200px; 
 }
