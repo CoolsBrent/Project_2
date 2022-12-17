@@ -4,7 +4,7 @@
   }
   body {
   background-color: rgb(48, 47, 47);
-  
+  padding-right: 0px;
   
   }
   .p-5 {
@@ -12,11 +12,12 @@
   background-position: center;
   background-size: cover;
   object-fit: cover;
-  background-position-y: center;
-  
+  background-position-y: top;
+  padding-top: 0px;
+  margin-top: 0px;
   margin-bottom: 20px;
   }
- 
+  
   .footer{
   position: sticky;
   width: 100%;
@@ -27,29 +28,6 @@
   .mb-3 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
   }
-  #colform {
+  .container-fluid {
     padding-bottom: 75px;
-  }
-  .col-3 {
-    background-color: rgb(187,187,187);
-  }
-  @media screen and (max-width: 600px) {
-    .row {
-      width: 100%;
-    }
-  }
-  @media screen and (max-width: 400px) {
-    .navbar {
-      width: 100%;
-    }
-  }
-  @media screen and (max-width: 600px) {
-    .col {
-      width: 100%;
-    }
-  }
-  @media screen and (max-width: 600px) {
-    .col-3 {
-      width: 100%;
-    }
   }

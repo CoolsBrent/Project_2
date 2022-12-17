@@ -26,6 +26,10 @@ margin-bottom: 20px;
 .mb-3 {
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.img {
+  height: 150px;
+}
+
 .img-thumbnail {
 height: 200px; 
 }
@@ -48,7 +52,10 @@ width: 600px;
 .carousel-item {
     height: 200px;
 }
-
+.card {
+  background-color: rgb(187,187,187);
+  height: 362px;
+}
 .aanvullendeinfo {
     margin-left: 20px;
     margin-bottom: 75px;
@@ -57,6 +64,7 @@ width: 600px;
     max-width: 100%;
   height: auto;
 }
+
 
 .modal-dialog {
     width: 100%;
@@ -101,5 +109,11 @@ width: 600px;
   @media screen and (max-width: 405px) {
     .modal{
       width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .img{
+      width: 150px;
+     
     }
   }
