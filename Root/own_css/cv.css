@@ -64,7 +64,11 @@ width: 600px;
     max-width: 100%;
   height: auto;
 }
-
+.card-body{
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 .modal-dialog {
     width: 100%;

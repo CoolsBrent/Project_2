@@ -4,7 +4,7 @@
   }
   body {
   background-color: rgb(48, 47, 47);
-  padding-right: 0px;
+  
   
   }
   .p-5 {
@@ -28,6 +28,7 @@
   .mb-3 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
   }
-  .container-fluid {
+  #padding {
     padding-bottom: 75px;
   }
+ 
